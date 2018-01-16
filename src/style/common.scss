@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body, #app{
+  width: 100%;
+  height: 100%;
+}
+.tabs{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 49px;
+  display: flex;
+  background: palegoldenrod;
+  border-top: 1px solid #ddd;
+  .tab{
+    flex: 1;
+    text-align: center;
+    line-height: 49px;
+    border-right: 1px solid #ddd;
+    font-size: 24px;
+    color: red;
+  }  
+}
+.page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 49px;
+  width: 100%;
+}
+.page.subpage{
+  bottom: 0;
+  z-index: 1;
+}
+.animation-timing-300{
+  animation-duration: 300ms;
+}
+
+#detail{
+  background: plum;
+}
+
+
+
